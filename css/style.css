@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;;
+}
+
+img{
+    border-radius: 10px;
+}
+
+header{
+    background-color: #c999af;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+    border-bottom: 20px;
+}
+
+header > *{
+    margin-top: 5vh;
+}
+
+header > ul{
+    display: flex;
+    height: 10vh;
+    
+}
+
+.menu-lista > a{
+    color: white;
+    text-decoration: none;
+    width: 10vw;
+}
+
+.menu-lista > a:hover{
+    color: #a56784;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.menu-lista > a > p{
+    align-items: center;
+    margin-right: 10%;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#pessoal{
+    margin: 5% 5% 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pessoal_p{
+    margin-left: 5%;
+    width: 40%;
+}
+
+
+
+#entrevista{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#entrevista > p{
+    text-align: center;
+    width: 30vw;
+    margin-top: 10px;
+}
+
+
+.duas_divs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px; 
+}
+
+.duas_divs > img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.perg{
+    color: #d34789;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+p{
+    font-size: 1.3em;
+}
